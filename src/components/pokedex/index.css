@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+}
+
+div .pokemon-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pokemon-card-container{
+  margin: 10px;
+}
