@@ -1,7 +1,6 @@
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import pokemons from '../../assets/pokemons'
-import PokedexRow from '../../components/pokedexRow'
 import PokemonCard from "../pokemonCard";
 import "./index.css"
 
