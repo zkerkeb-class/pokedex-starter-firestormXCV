@@ -7,10 +7,19 @@ import "./index.css"
 
 const Pokedex = () => {
     const [search, setSearch] = useState('');
+    const [selectedType, setSelectedType] = useState('');
+
+    const uniqueTypes = new Set(pokemons.flatMap(pokemon => pokemon.type));
+
 
     const handleChange = (event) => {
         setSearch(event.target.value);
     }; 
+
+    const HandleTypeChange = (event) => {
+        setSelectedType(event.target.value)
+        console.log(selectedType)
+    };
 
     return (
         <div>
@@ -20,10 +29,17 @@ const Pokedex = () => {
                 value={search}
                 onChange={handleChange}
             />
+            <select value={selectedType} onChange={HandleTypeChange}>
+                <option value="">Tous les types</option>
+                {Array.from(uniqueTypes).map((type) => (
+                    <option key={type} value={type}>{type}</option>
+                ))}
+            </select>
+
            <div className="pokemon-list">
                 {pokemons
                     .filter((pokemon) =>
-                        pokemon.name.french.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+                        pokemon.name.french.toLowerCase().includes(search.toLowerCase()) && (selectedType === '' || pokemon.type.includes(selectedType))
                     )
                     .map((pokemon) => (
                         <div className="pokemon-card-container">
