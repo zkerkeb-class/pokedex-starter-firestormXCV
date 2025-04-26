@@ -1,10 +1,10 @@
 # Pokédex Front-End – FirestormXCV
 
-Bienvenue sur le dépôt front-end du projet Pokédex développé par FirestormXCV. Cette application web interactive permet aux utilisateurs de consulter, rechercher et comparer des Pokémon de manière intuitive et dynamique.
+Bienvenue sur le dépôt front-end du projet Pokédex développé par Thomas PASQUIER. Cette application web interactive permet aux utilisateurs de consulter, rechercher et comparer des Pokémon de manière intuitive et dynamique.
 
 ## 🧩 Description du projet
 
-Ce projet est une application web moderne construite avec React.js, offrant une interface utilisateur riche et interactive pour explorer l'univers des Pokémon. Elle se connecte à une API back-end dédiée pour récupérer les données des Pokémon et propose des fonctionnalités avancées telles que la comparaison de statistiques et l'affichage de versions shiny.
+Ce projet est une application web moderne construite avec React et Vite, offrant une interface utilisateur riche et interactive pour explorer l'univers des Pokémon. Elle se connecte à une API back-end dédiée pour récupérer les données des Pokémon et propose des fonctionnalités avancées telles que la comparaison de statistiques et l'affichage de versions shiny.
 
 ### Fonctionnalités principales
 
