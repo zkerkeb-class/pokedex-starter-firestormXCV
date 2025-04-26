@@ -61,4 +61,4 @@ L'application front-end interagit avec une API RESTful pour récupérer et manip
 ### 🎥 Vidéo de démonstration
 Une démonstration complète de l'application est disponible sur YouTube :
 
-👉 Lien vers la vidéo de démonstration
+👉 https://www.youtube.com/watch?v=HlnDNrVc7aI
