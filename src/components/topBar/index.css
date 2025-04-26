@@ -1,0 +1,33 @@
+.topbar-container {
+    padding: 1%;
+}
+
+input {
+    outline: none;
+}
+
+.shiny-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+
+.add-pokemon-button {
+    margin-left: 1rem;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .add-pokemon-button:hover {
+    background-color: #3f7fc5;
+  }
+  

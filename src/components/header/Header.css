@@ -1,0 +1,59 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a90e2;
+    color: white;
+    padding: 0.5rem 1.5rem; /* réduit le padding vertical */
+    height: 60px; /* facultatif : fixe la hauteur max */
+  }
+  
+  .header-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .header-user {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .header-username {
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  
+  .logout-button {
+    background-color: white;
+    color: #4a90e2;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+    font-size: 0.85rem;
+  }
+  
+  .logout-button:hover {
+    background-color: #e2e2e2;
+  }
+
+  .back-button {
+    background-color: white;
+    color: #4a90e2;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 1rem;
+    font-size: 0.85rem;
+  }
+  
+  .back-button:hover {
+    background-color: #e2e2e2;
+  }
+  
