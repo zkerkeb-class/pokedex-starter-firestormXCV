@@ -1,7 +1,7 @@
 .pokemon-card{
-    border: 1px solid red;
+    border: 1px solid black;
     padding: 10px;
-    border-radius: 0px;    
+    border-radius: 6px;    
 }
 
 .pokemon-name{
@@ -10,7 +10,13 @@
 }
 
 .pokemon-name-container{
-    background-color: red;
+    background-color: rgba(128, 128, 128, 0.32);
+    color: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding-left: 5%;
+    
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -40,4 +46,14 @@
     background-color: green;
     display: flex;
     flex-direction: column;
+}
+
+.pokemon-stat {
+    background-color: rgba(128, 128, 128, 0.32);
+    color: white;
+    border-radius: 10%;
+}
+
+.button-more:hover {
+    transform: scale(1.1); 
 }
