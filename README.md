@@ -1,4 +1,4 @@
-# Pokédexdzdz Front-End – FirestormXCV
+# Pokédex Front-End – FirestormXCV
 
 Bienvenue sur le dépôt front-end du projet Pokédex développé par FirestormXCV. Cette application web interactive permet aux utilisateurs de consulter, rechercher et comparer des Pokémon de manière intuitive et dynamique.
 
