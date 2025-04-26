@@ -1,0 +1,65 @@
+.compare-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.compare-modal-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  position: relative;
+  width: 60%;
+  max-width: 1000px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.compare-pokemons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.pokemon-compare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.red-border img {
+  border: 4px solid red;
+  border-radius: 12px;
+}
+
+.blue-border img {
+  border: 4px solid blue;
+  border-radius: 12px;
+}
+
+.pokemon-compare img {
+  width: 220px; /* Taille fixe plus petite */
+  height: auto;
+  object-fit: contain;
+}
+

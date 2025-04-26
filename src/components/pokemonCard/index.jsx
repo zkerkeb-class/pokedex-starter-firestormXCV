@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react"
 import "./index.css"
 
-const PokemonCard = ({name, types, image, attack, defense, hp, showShiny }) => {
+const PokemonCard = ({name, types, image, attack, defense, hp, showShiny, isSelected  }) => {
     const [imgSrc, setImgSrc] = useState(image);
 
     useEffect(() => {

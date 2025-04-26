@@ -1,7 +1,7 @@
 import pokemons from '../../assets/pokemons';
 import "./index.css"
 
-const TopBar = ({ search, setSearch, selectedType, setSelectedType, onAddClick, showShiny, setShowShiny }) => {
+const TopBar = ({ search, setSearch, selectedType, setSelectedType, onAddClick, showShiny, setShowShiny, comparisonMode, setComparisonMode }) => {
   const uniqueTypes = new Set(pokemons.flatMap(pokemon => pokemon.type));
 
   return (
@@ -26,6 +26,15 @@ const TopBar = ({ search, setSearch, selectedType, setSelectedType, onAddClick, 
           onChange={(e) => setShowShiny(e.target.checked)}
         />
         Shiny
+      </label>
+
+      <label className="comparison-toggle">
+        <input
+          type="checkbox"
+          checked={comparisonMode}
+          onChange={(e) => setComparisonMode(e.target.checked)}
+        />
+        Comparaison
       </label>
 
       {/* Bouton pour ouvrir la modal */}

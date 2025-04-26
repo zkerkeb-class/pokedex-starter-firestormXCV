@@ -55,7 +55,7 @@ const PokemonDetail = () => {
         <div>
             <h2>{pokemon.name.french}</h2>
             <img src={pokemon.image} alt={pokemon.name.french} />
-            {pokemon.base && <StatRadar stats={pokemon.base} />}
+            {pokemon.base && <StatRadar stats1={pokemon.base} />}
 
             {isEditing ? (
                 <div>

@@ -12,3 +12,11 @@ div .pokemon-list{
 .pokemon-card-container{
   margin: 10px;
 }
+
+.pokemon-link.selected {
+  border: 4px solid #4fa8f0; /* Bleu clair */
+  border-radius: 12px;
+  box-shadow: 0 0 10px #4fa8f0;
+  transition: all 0.3s ease;
+  padding: 5px; /* pour éviter que la bordure écrase le contenu */
+}
